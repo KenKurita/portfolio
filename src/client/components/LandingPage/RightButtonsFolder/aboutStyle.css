@@ -1,0 +1,161 @@
+h1, h2 {
+  display: flex;
+  justify-content: center;
+}
+
+h2, h3 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+
+span {
+  display: flex;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  color: #9e9c9c;
+}
+
+.cell, .response {
+  display: table-cell;
+  padding: 16px;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.header {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+#orange {
+  color: orange;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.box {
+  border: 1px solid #5d5c5c;
+  box-sizing: border-box;
+  width: 250px;
+  padding: 0 15% 0 15%;
+  border-radius: 10px;
+}
+
+.personalInfo {
+  padding: 0 7% 0 0;
+  text-align: left;
+}
+ .boxy {
+  padding: 0 10% 0 0;
+ }
+
+.span1 {
+  display: flex;
+  justify-content: center;
+}
+
+.boxNum {
+  font-size: 75px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of .skills to 100% of the viewport height */
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.box2 {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  width: 100px;
+  height: 150px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 120px); /* Set the height of each row (adjust as needed) */
+  grid-gap: 40px; /* Add some space between the boxes */
+  padding: 0 15% 0 15%;
+}
+
+.box3 {
+  position: relative;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  height: 100px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.line {
+  border-left: 2px solid #5d5c5c;
+  height: 75px;
+  position: relative;
+  top: 1%;
+  left: 100%;
+  transform: translateX(-50%); /* Center the line horizontally */
+}
+
+.box3box {
+  height: 75%;
+  width: 75%;
+  text-align: left;
+  left: 15%;
+  position: relative;
+}
+
+
+
+
+
+
