@@ -14,6 +14,11 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/../client/public/index.html'));
 });
 
+app.post('/contactMe', (req,res) => {
+  console.log(req.body)
+  res.send(console.log('posted successfully'))
+})
+
 //*********** Routing End ***********//
 
 

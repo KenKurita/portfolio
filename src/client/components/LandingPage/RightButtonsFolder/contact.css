@@ -3,9 +3,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.centered-element {
-  /* The element will be centered both horizontally and vertically */
-}
+
 
 .orange {
   color: orange;
