@@ -19,15 +19,6 @@ export default function Contact(props) {
     setSubject('SUBJECT')
     setMessage('MESSAGE')
     setPhone('PHONE #')
-    // axios.post('/contactMe', { data })
-    //   .then((response) => {
-    //     alert('Message successfully sent!')
-    //   })
-    //   .catch((err) => {
-    //     if (err) {
-    //       console.log(err, 'error inside contactMe Client')
-    //     }
-    //   })
 
     $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
       type: 'POST',
@@ -42,7 +33,7 @@ export default function Contact(props) {
 
 
   return (
-    <div>
+    <div classNam='divBody'>
       <h1>CONTACT&nbsp;<div className="
       orange">ME</div></h1>
       <span>
