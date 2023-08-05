@@ -1,13 +1,12 @@
 import React, {useState, useEffect} from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 export default function AboutMe(props) {
 
-  function clickMe() {
-    console.log('butt stuff')
-  }
+
   return (
-    <button onClick={clickMe} style={{backgroundColor: 'orange', color: 'white', fontSize:'40px'}}>
-      MORE ABOUT ME
+    <button style={{backgroundColor: 'orange', color: 'white', fontSize:'40px'}}>
+      <Link style={{backgroundColor: 'orange', color: 'white', fontSize:'40px', textDecoration: 'none'}}to='about'>MORE ABOUT ME</Link>
     </button>
   )
 }

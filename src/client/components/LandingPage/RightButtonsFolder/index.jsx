@@ -15,9 +15,9 @@ export default function LandingPageRightButtons(props) {
     <div style={{display: 'flex', flexDirection: 'column', gap: '25px'}}>
       <Link to='/'>Home</Link>
       <Link to='about'>About</Link>
-      <Link to='/contact'>Contact</Link>
-      <Link to='/portfolio'>Portfolio</Link>
-      <Link to='/skills'>Skills</Link>
+      <Link to='contact'>Contact</Link>
+      <Link to='portfolio'>Portfolio</Link>
+      <Link to='skills'>Skills</Link>
     </div>
   )
 };
