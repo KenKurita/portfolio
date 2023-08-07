@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import RightButtons from './index.jsx';
+import MapIcon from '@mui/icons-material/Map';
+import DraftsIcon from '@mui/icons-material/Drafts';
+import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import $ from 'jquery';
 import './contact.css';
 
@@ -33,53 +37,51 @@ export default function Contact(props) {
 
 
   return (
-    <div classNam='divBody'>
-      <h1>CONTACT&nbsp;<div className="
-      orange">ME</div></h1>
+    <div >
+      <div className='pageContainer'>
+      <h1 className="contactHeader">CONTACT&nbsp;<div className="orange">ME</div></h1>
       <span>
-        <div>
+        <div className="contactText">
           <div>DONT BE SHY!</div><br />
 
-          <div> Feel free to get in touch with me. I am always open <br /> to discussing new projects, creative ideas or
-            <br />opportunities to be part of your visions.</div><br />
+          <div> Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</div><br />
 
-          <div>
-            <div>ADDRESS POINT</div>
-            San Leandro, CA 94578
-          </div><br />
+          <span >
+          <MapIcon sx={{ fontSize: 45, color: 'orange', paddingRight:'8%' }} />
+            <div><div style={{color: "#9e9c9c"}}>ADDRESS POINT</div> San Leandro, CA 94578</div>
+          </span><br />
 
-          <div>
-            <div>MESSAGE ME</div>
-            kenivankurita@gmail.com
-          </div><br />
+          <span >
+          <DraftsIcon sx={{ fontSize: 45, color: 'orange', paddingRight:'8%' }} />
+            <div><div style={{color: "#9e9c9c"}}>MESSAGE ME</div>kenivankurita@gmail.com</div>
+          </span><br />
 
-          <div>
-            <div>CALL ME</div>
-            (209) 404-3734
-          </div>
+          <span >
+          <ContactPhoneIcon sx={{ fontSize: 45, color: 'orange', paddingRight:'8%'}} />
+            <div><div style={{color: "#9e9c9c"}}>CALL ME</div>(209) 404-3734</div>
+          </span>
 
         </div>
-        <form action="#" method="post" onSubmit={sendMessage}>
-          <label>
-            <input type="text" id="name" name="name" value={name} required onChange={e => setName(e.target.value)} />
-            <br />
-
-            <input type="email" id="email" name="email" value={email} required onChange={e => setEmail(e.target.value)} />
-            <br />
-
-            <input type="phone" id="phone" name="phone" value={phone} required onChange={e => setPhone(e.target.value)} />
-            <br />
-
-            <input type="text" id="subject" name="subject" value={subject} required onChange={e => setSubject(e.target.value)} />
-            <br />
-
-            <textarea id="message" name="message" rows="4" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-            <br />
-
+          <form className="contact-form" action="#" method="post" onSubmit={sendMessage}>
+            <div className="input-group">
+              <input type="text" id="name" name="name" value={name} required onChange={e => setName(e.target.value)} />
+              <input type="email" id="email" name="email" value={email} required onChange={e => setEmail(e.target.value)} />
+            </div>
+            <div className="input-group">
+              <input type="text" id="subject" name="subject" value={subject} required onChange={e => setSubject(e.target.value)} />
+              <input type="phone" id="phone" name="phone" value={phone} required onChange={e => setPhone(e.target.value)} />
+            </div>
+            <div className="input-group">
+              <textarea id="message" name="message" rows="4" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+            </div>
             <button type="submit">Send</button>
-          </label>
-        </form>
+          </form>
+
       </span>
+      </div>
+      <div className='rightButtons'>
+        <RightButtons />
+      </div>
     </div>
   )
 };

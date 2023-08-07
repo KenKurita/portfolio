@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import RightButtons from './index.jsx';
 import './portfolio.css';
 
 export default function Portfolio(props) {
@@ -33,6 +34,9 @@ export default function Portfolio(props) {
     <div className="container2">
       <h1>MY &nbsp; <div id='orange'>PORTFOLIO</div></h1>
       <div>{showList()}</div>
+      <div className='rightButtons'>
+        <RightButtons />
+      </div>
     </div>
   )
 };

@@ -1,0 +1,17 @@
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center; /* Center items horizontally */
+}
+
+.nav-circle {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+}

@@ -3,6 +3,7 @@ import './aboutStyle.css';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import WorkIcon from '@mui/icons-material/Work';
+import RightButtons from './index.jsx';
 
 
 
@@ -45,7 +46,7 @@ export default function About(props) {
 
       <div>
         <h2>MY SKILLS</h2>
-        <div class="container2 skills">
+        <div class="containerSkill skills">
           <div class="box2"><CircularProgressbar value={100} text={`${100}%`} styles={buildStyles({ pathColor: 'orange', textColor: 'orange', trailColor: '#303030' })} />Javascript</div>
           <div class="box2"><CircularProgressbar value={100} text={`${100}%`} styles={buildStyles({ pathColor: 'orange', textColor: 'orange', trailColor: '#303030' })} />React</div>
           <div class="box2"><CircularProgressbar value={75} text={`${75}%`} styles={buildStyles({ pathColor: 'orange', textColor: 'orange', trailColor: '#303030' })} />Express</div>
@@ -77,6 +78,9 @@ export default function About(props) {
           <div class="box3"><div class="circle"><WorkIcon sx={{ fontSize: 45, color: 'white' }} /> <div class="line"></div></div>
           <div id="orange">AA IN BUSINESS - LAS POSITAS COMMUNITY COLLEGE</div><br/>3.9 Cummulative GPA <br/> Swim Team, Student Union</div>
         </div>
+      </div>
+      <div className='rightButtons'>
+        <RightButtons />
       </div>
     </div>
   )

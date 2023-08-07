@@ -90,7 +90,7 @@ span {
   height: 100vh; /* Set the height of .skills to 100% of the viewport height */
 }
 
-.container2 {
+.containerSkill {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
