@@ -4,6 +4,7 @@ import RightButtons from './RightButtonsFolder/index.jsx';
 import './index.css';
 
 export default function LandingPage(props) {
+
   return (
     <div className='landing-container'>
       <div className='orangeThing'>

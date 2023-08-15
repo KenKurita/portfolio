@@ -36,10 +36,10 @@ export default function About(props) {
         </div>
         <div class="boxy">
           <div class="container">
-            <div class="box"><div class="boxNum" id="orange">12+</div>BS in Finance</div>
+            <div class="box"><div class="boxNum" id="orange">5+</div>React projects</div>
             <div class="box"><div class="boxNum" id="orange">2+</div>Start-ups</div>
-            <div class="box"><div class="boxNum" id="orange">3+</div>Boats</div>
-            <div class="box"><div class="boxNum" id="orange">1+</div>Hoes</div>
+            <div class="box"><div class="boxNum" id="orange">4+</div>Years Experience in Project Management</div>
+            <div class="box"><div class="boxNum" id="orange">1</div>Certificate of for Full-Stack Software Engineering</div>
           </div>
         </div>
       </span>
@@ -71,7 +71,7 @@ export default function About(props) {
           </div><div id="orange">FINANCIAL ANALYST & SALES OPERATIONS</div>Feb 2018 - Dec 2018<div class="box3box">
           <br/> Built Salesforce as single admin, engaged with new and existing customers via cold-calling and exhibitions, created marketing collateral from research department</div></div>
           <div class="box3"><div class="circle"><WorkIcon sx={{ fontSize: 45, color: 'white' }} /> <div class="line"></div></div>
-          <div id="orange">BS IN FINANCE - SAN JOSE STATE UNIVERSITY</div><br/>3.6 Cummulative GPA <br/> Investment Club</div>
+          <div id="orange">BS IN FINANCE - SAN JOSE STATE UNIVERSITY</div><br/>3.8 Cummulative GPA <br/> Investment Club</div>
           <div class="box3"><div class="circle"><WorkIcon sx={{ fontSize: 45, color: 'white' }} /> <div class="line"></div>
           </div><div><div id="orange">INVESTMENT ANALYST</div><br/> Jan 2016 - Jun 2017</div><br/>
           <div class="box3box">Investments: Sano, DeepGram, Affectiva, MailTime</div></div>

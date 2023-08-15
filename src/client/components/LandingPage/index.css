@@ -27,9 +27,10 @@
 .landingImg {
   width: 600px;
   height: 800px;
-  margin: 30%;
   border-radius: 30px;
-  padding-top: 20%;
+  position: absolute;
+  top: 125px;
+  left: 20%;
 }
 
 .landingText {
@@ -42,3 +43,5 @@
 .orange {
   color: orange;
 }
+
+
