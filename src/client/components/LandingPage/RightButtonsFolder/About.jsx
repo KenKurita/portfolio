@@ -29,7 +29,6 @@ export default function About(props) {
               <div class="cell">Address: </div><div class="response">San Francisco Bay Area, CA</div>
             </div>
             <div class="row">
-              <div class="cell">Phone:  </div><div class="response">(209) 404-3734</div>
               <div class="cell">Languages: </div><div class="response">English</div>
             </div>
           </div>
