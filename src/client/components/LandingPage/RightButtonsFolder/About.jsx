@@ -29,6 +29,7 @@ export default function About(props) {
               <div class="cell">Address: </div><div class="response">San Francisco Bay Area, CA</div>
             </div>
             <div class="row">
+              <div class="cell">Email:  </div><div class="response">kenkurita@yahoo.com</div>
               <div class="cell">Languages: </div><div class="response">English</div>
             </div>
           </div>
