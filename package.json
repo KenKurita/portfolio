@@ -24,7 +24,7 @@
   "scripts": {
     "server": "nodemon src/server/index.jsx --watch",
     "start": "webpack -w --mode development",
-    "productionBuild": "webpack --mode development"
+    "production": "webpack --mode development"
   },
   "devDependencies": {
     "css-loader": "^6.8.1",
